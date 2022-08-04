@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html> 
+	
+	<head>
+		<meta charset="utf-8">
+		<link href="style.css" rel="stylesheet">
+		<title>CSS</title>
+		
+		<!---JS--->
+		<script>
+			
+			//Funcao
+		function acao(){
+
+			//Obter Elemento H1
+			var texto = document.getElementsByTagName("h1")[0];
+
+			//CSS
+			texto.style.color = "#FF0000";
+			texto.style.fontSize = "20px";
+
+			//Alterar o conteudo
+			texto.innerHTML = "Curso de JavaScript"
+		}
+
+		</script>
+	</head>
+
+	<body>
+			
+		<h1>Texto JavaScript</h1>
+		<button onclick="acao()">Click here</button> <br>
+		<img src="https://oneftbl-cms.imgix.net/https%3A%2F%2Fportaldogremista.com.br%2Fwp-content%2Fuploads%2F2022%2F02%2Fgeromel-gremio.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=210&q=25&w=280&s=bad04536ab67f1e3632afdebb865e884"><br>
+		<iframe width="420" height="315"
+		src="https://www.youtube.com/embed/jdwd48gRdaI">
+		</iframe>	
+	</body>
+
+</html>
