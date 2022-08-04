@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html> 
+	
+	<head>
+		<meta charset="utf-8">
+		<link href="style.css" rel="stylesheet">
+		<title>Estrutura Base</title>
+		
+		<!---JS--->
+		<script>
+			
+			/*
+				onKeyUp: Exibe o caractere e depois exec-
+				uta a acao
+
+				onKeyDown: Executa a acao e depois exibe 
+				o caractere
+
+				onKeyPress: Executa a acao e depois exibe 
+				o caractere
+
+				Nao tem suporte as seguintes teclas::
+				f1 ate f12,ALT, CTRL, SHIFT...
+
+				*/
+
+			function exibir(){
+				//obter valor do campo texto
+				var campo = document.getElementById("campo").value;
+				//Exibir o conteudo digitado no campo
+				alert(campo);
+			}
+
+
+		</script>
+	</head>
+
+	<body>
+			<input type="text" id="campo" onkeyup="exibir()">	
+	</body>
+
+</html>
